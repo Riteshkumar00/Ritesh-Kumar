@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experience - My Portfolio</title>
+  <link rel="stylesheet" href="css/experience.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Ritesh Kumar</div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="navMenu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html" class="active">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <section class="experience">
+    <h1>Experience</h1>
+
+    <div class="experience-item">
+      <h3>IT Support Trainee – Lovely Professional University</h3>
+      <p class="duration">Jan 2025 – May 2025</p>
+      <ul>
+          <li>Assisted over 300+ students in effectively using University Interface, ensuring a 95% resolution rate for their queries.</li>
+          <li>Coordinated with the technical team to implement efficient solutions, reducing query resolution time by 30%.</li>
+          <li>Collected and analyzed student feedback, improving IT services by 20%.</li>
+          <li>Resolved over 300+ queries related to UMS, email IDs, and websites.</li>
+      </ul>
+      <div class="certificate">
+        <p>Certificate:</p>
+        <a href="images/certificate1.jpg" target="_blank">
+          <img src="images/certificate1.jpg" alt="IT Support Certificate">
+        </a>
+      </div>
+    </div>
+
+    <div class="experience-item">
+      <h3>Data Encoder – Lovely Professional University</h3>
+      <p class="duration">Dec 2024 – Jan 2025</p>
+      <ul>
+        <li>Corrected missing data, increasing data accuracy by 100%.</li>
+        <li>Trained faculty on software usage, reducing issues by 30%.</li>
+        <li>Collaborated with exam department, cutting processing time by 15%.</li>
+      </ul>
+      <div class="certificate">
+        <p>Certificate:</p>
+        <a href="images/Data Encoder.jpg" target="_blank">
+          <img src="images/Data Encoder.jpg" alt="Data Encoder Certificate">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ritesh Kumar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

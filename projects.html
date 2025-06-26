@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Ritesh Kumar</title>
+  <link rel="stylesheet" href="css/projects.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Ritesh Kumar</div>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="projects-container">
+
+    <!-- Project Card -->
+    <div class="project-card">
+      <div class="image-box">
+        <img src="/images/Codex.png" alt="E-Learning Platform">
+      </div>
+      <div class="content">
+        <h3>E-Learning Website – Codex Container</h3>
+        <span>Feb 2025 - Apr 2025</span>
+        <ul>
+          <li>Built a responsive E-Learning platform for delivering educational content with user authentication, clean UI, and dynamic page
+          navigation</li>
+          <li>Designed the front-end using HTML, CSS, and JavaScript, ensuring a smooth user experience across devices</li>
+          <li>Integrated Firebase Authentication for secure user login/signup and Firebase Realtime Database to manage user/course data</li>
+          <li>Containerized the application using Docker to ensure consistent environment setup and simplified deployment</li>
+          <li>Implemented CI/CD pipeline with Jenkins, automating the build, test, and deployment process for faster and reliable delivery</li>
+          <li>Applied form validations, added social sign-in options, and enhanced UX with intuitive layouts and branding</li>
+          <li><a href="https://bit.ly/Codex-Container" target="_blank">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="image-box">
+        <img src="/images/Excel Dashboard.png" alt="Excel Dashboard">
+      </div>
+      <div class="content">
+        <h3>Interactive Dashboard | Excel</h3>
+        <span>Mar 2024 - May 2024</span>
+        <ul>
+          <li>Designed an interactive dashboard to analyze 2022 India sales trends, enhancing data visualization and decision-making efficiency</li>
+          <li>Provided insights into sales performance across different channels, including online platforms, retail stores, and direct sales</li>
+          <li><a href="https://bit.ly/3EtAUGR" target="_blank">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="image-box">
+        <img src="/images/Tableau Dashboard.png" alt="Tableau Dashboard">
+      </div>
+      <div class="content">
+        <h3>Road Accident Dashboard | Tableau</h3>
+        <span>Apr 2024 - May 2024</span>
+        <ul>
+          <li>Developed an interactive dashboard to analyze road accidents in England (2018-2021), enhancing trend analysis and decisions</li>
+          <li>Analyzed accident trends, severity, locations, and factors to improve road safety decisions</li>
+          <li><a href="https://bit.ly/4gwygxq" target="_blank">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="image-box">
+        <img src="/images/Snake.png" alt="Snake Game">
+      </div>
+      <div class="content">
+        <h3>Snake Game | Python</h3>
+        <span>Aug 2022 - Sep 2022</span>
+        <ul>
+          <li>Developed a classic Snake game using Python, featuring real-time player controls, collision detection, and score tracking</li>
+          <li>Enhanced user experience by increasing game difficulty as the snake grew</li>
+          <li><a href="https://bit.ly/4gnHcFe" target="_blank">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ritesh Kumar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
